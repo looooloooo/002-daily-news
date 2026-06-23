@@ -6,6 +6,9 @@ on:
     - cron: "50 23 * * *"
   workflow_dispatch:  # manual trigger
 
+permissions:
+  contents: write  # allow committing back
+
 jobs:
   fetch-and-send:
     runs-on: ubuntu-latest
@@ -29,3 +32,11 @@ jobs:
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
           RECIPIENT_EMAIL: ${{ secrets.RECIPIENT_EMAIL }}
         run: python 01-main.py
+
+      - name: Commit daily brief back to repo
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add daily/ logs/
+          git diff --staged --quiet || git commit -m "daily: auto brief $(date +%Y-%m-%d)"
+          git push
