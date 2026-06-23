@@ -1,0 +1,39 @@
+{
+  "ai_tech": {
+    "label": "AI/科技",
+    "sources": [
+      {"name": "TechCrunch", "url": "https://techcrunch.com/feed/", "region": "overseas"},
+      {"name": "Ars Technica", "url": "https://feeds.arstechnica.com/arstechnica/index", "region": "overseas"},
+      {"name": "MIT Technology Review", "url": "https://www.technologyreview.com/feed/", "region": "overseas"},
+      {"name": "The Verge", "url": "https://www.theverge.com/rss/index.xml", "region": "overseas"},
+      {"name": "Hacker News", "url": "https://hnrss.org/frontpage", "region": "overseas"},
+      {"name": "Google News Tech", "url": "https://news.google.com/rss/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRGRqTVhZU0FtVnVHZ0pWVXlnQVAB", "region": "overseas"},
+      {"name": "机器之心", "url": "https://jiqizhixin.com/rss", "region": "china"},
+      {"name": "量子位", "url": "https://www.qbitai.com/feed", "region": "china"},
+      {"name": "Solidot", "url": "https://www.solidot.org/index.rss", "region": "china"}
+    ]
+  },
+  "finance": {
+    "label": "财经",
+    "sources": [
+      {"name": "CNBC Top News", "url": "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=100003114", "region": "overseas"},
+      {"name": "MarketWatch Top", "url": "https://feeds.marketwatch.com/marketwatch/topstories", "region": "overseas"},
+      {"name": "Bloomberg Markets", "url": "https://feeds.bloomberg.com/markets/news.rss", "region": "overseas"},
+      {"name": "Google News Business", "url": "https://news.google.com/rss/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRGx6TVdZU0FtVnVHZ0pWVXlnQVAB", "region": "overseas"},
+      {"name": "36氪", "url": "https://36kr.com/feed", "region": "china"},
+      {"name": "FT Chinese", "url": "https://www.ftchinese.com/rss/feed", "region": "china"}
+    ]
+  },
+  "intl_trends": {
+    "label": "国际趋势",
+    "sources": [
+      {"name": "BBC World", "url": "https://feeds.bbci.co.uk/news/world/rss.xml", "region": "overseas"},
+      {"name": "Al Jazeera", "url": "https://www.aljazeera.com/xml/rss/all.xml", "region": "overseas"},
+      {"name": "DW World", "url": "https://rss.dw.com/rdf/rss-en-world", "region": "overseas"},
+      {"name": "CFR Daily Brief", "url": "https://www.cfr.org/feed", "region": "overseas"},
+      {"name": "SCMP", "url": "https://www.scmp.com/rss/91/feed", "region": "both"},
+      {"name": "Google News World", "url": "https://news.google.com/rss/headlines/section/topic/WORLD", "region": "overseas"},
+      {"name": "联合早报", "url": "https://www.zaobao.com.sg/news/world", "region": "both"}
+    ]
+  }
+}
