@@ -37,6 +37,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add daily/ logs/
-          git diff --staged --quiet || git commit -m "daily: auto brief $(date +%Y-%m-%d)"
-          git push
+          git add -f daily/ logs/ || true
+          git commit -m "daily: auto brief $(date +%Y-%m-%d)" --allow-empty || true
+          git push || true
