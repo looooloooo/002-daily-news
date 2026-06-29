@@ -1,0 +1,146 @@
+2026-06-29 01:58:53,064 [main] INFO: ============================================================
+2026-06-29 01:58:53,064 [main] INFO: 002-daily-news starting
+2026-06-29 01:58:53,064 [main] INFO: Log: /home/runner/work/002-daily-news/002-daily-news/logs/run-20260629-015853.log
+2026-06-29 01:58:53,064 [main] INFO: Config OK
+2026-06-29 01:58:53,064 [main] INFO: Sources: 22 RSS feeds
+2026-06-29 01:58:53,064 [main] INFO: Step 1/3: Fetching...
+2026-06-29 01:58:53,188 [fetch] INFO: === Fetch cycle start ===
+2026-06-29 01:58:53,188 [fetch] INFO: Fetching RSS...
+2026-06-29 01:58:53,496 [httpx] INFO: HTTP Request: GET https://techcrunch.com/feed/ "HTTP/1.1 200 OK"
+2026-06-29 01:58:53,522 [fetch] INFO: RSS [TechCrunch] → 9 articles
+2026-06-29 01:58:53,541 [httpx] INFO: HTTP Request: GET https://www.technologyreview.com/feed/ "HTTP/1.1 200 OK"
+2026-06-29 01:58:53,575 [httpx] INFO: HTTP Request: GET https://feeds.arstechnica.com/arstechnica/index "HTTP/1.1 200 OK"
+2026-06-29 01:58:53,625 [fetch] INFO: RSS [MIT Technology Review] → 0 articles
+2026-06-29 01:58:53,637 [fetch] INFO: RSS [Ars Technica] → 1 articles
+2026-06-29 01:58:53,650 [httpx] INFO: HTTP Request: GET https://www.theverge.com/rss/index.xml "HTTP/1.1 200 OK"
+2026-06-29 01:58:53,667 [fetch] INFO: RSS [The Verge] → 9 articles
+2026-06-29 01:58:53,669 [httpx] INFO: HTTP Request: GET https://news.google.com/rss/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRGRqTVhZU0FtVnVHZ0pWVXlnQVAB "HTTP/1.1 302 Found"
+2026-06-29 01:58:53,718 [httpx] INFO: HTTP Request: GET https://feeds.marketwatch.com/marketwatch/topstories "HTTP/1.1 301 Moved Permanently"
+2026-06-29 01:58:53,742 [httpx] INFO: HTTP Request: GET https://news.google.com/rss/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRGRqTVhZU0FtVnVHZ0pWVXlnQVAB?hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
+2026-06-29 01:58:53,838 [httpx] INFO: HTTP Request: GET https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=100003114 "HTTP/1.1 200 OK"
+2026-06-29 01:58:53,839 [fetch] INFO: RSS [Google News Tech] → 14 articles
+2026-06-29 01:58:53,862 [httpx] INFO: HTTP Request: GET https://news.google.com/rss/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRGx6TVdZU0FtVnVHZ0pWVXlnQVAB "HTTP/1.1 302 Found"
+2026-06-29 01:58:53,864 [fetch] INFO: RSS [CNBC Top News] → 14 articles
+2026-06-29 01:58:53,878 [httpx] INFO: HTTP Request: GET https://hnrss.org/frontpage "HTTP/1.1 200 OK"
+2026-06-29 01:58:53,893 [httpx] INFO: HTTP Request: GET https://feeds.content.dowjones.io/public/rss/mw_topstories "HTTP/1.1 200 OK"
+2026-06-29 01:58:53,893 [fetch] INFO: RSS [Hacker News] → 15 articles
+2026-06-29 01:58:53,902 [fetch] INFO: RSS [MarketWatch Top] → 8 articles
+2026-06-29 01:58:53,940 [httpx] INFO: HTTP Request: GET https://news.google.com/rss/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRGx6TVdZU0FtVnVHZ0pWVXlnQVAB?hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
+2026-06-29 01:58:54,032 [httpx] INFO: HTTP Request: GET https://feeds.bloomberg.com/markets/news.rss "HTTP/1.1 200 OK"
+2026-06-29 01:58:54,056 [fetch] INFO: RSS [Google News Business] → 12 articles
+2026-06-29 01:58:54,072 [fetch] INFO: RSS [Bloomberg Markets] → 15 articles
+2026-06-29 01:58:54,166 [httpx] INFO: HTTP Request: GET https://jiqizhixin.com/rss "HTTP/1.1 301 Moved Permanently"
+2026-06-29 01:58:54,195 [httpx] INFO: HTTP Request: GET https://www.aljazeera.com/xml/rss/all.xml "HTTP/1.1 200 OK"
+2026-06-29 01:58:54,207 [httpx] INFO: HTTP Request: GET https://feeds.bbci.co.uk/news/world/rss.xml "HTTP/1.1 200 OK"
+2026-06-29 01:58:54,207 [fetch] INFO: RSS [Al Jazeera] → 15 articles
+2026-06-29 01:58:54,218 [fetch] INFO: RSS [BBC World] → 14 articles
+2026-06-29 01:58:54,307 [httpx] INFO: HTTP Request: GET https://www.cfr.org/feed "HTTP/1.1 200 OK"
+2026-06-29 01:58:54,318 [fetch] INFO: RSS [CFR Daily Brief] → 0 articles
+2026-06-29 01:58:54,319 [httpx] INFO: HTTP Request: GET https://news.google.com/rss/headlines/section/topic/WORLD "HTTP/1.1 302 Found"
+2026-06-29 01:58:54,371 [httpx] INFO: HTTP Request: GET https://news.google.com/rss/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRGx1YlY4U0FtVnVHZ0pWVXlnQVAB "HTTP/1.1 302 Found"
+2026-06-29 01:58:54,423 [httpx] INFO: HTTP Request: GET https://www.solidot.org/index.rss "HTTP/1.1 200 OK"
+2026-06-29 01:58:54,436 [httpx] INFO: HTTP Request: GET https://news.google.com/rss/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRGx1YlY4U0FtVnVHZ0pWVXlnQVAB?hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
+2026-06-29 01:58:54,445 [httpx] INFO: HTTP Request: GET https://www.scmp.com/rss/91/feed "HTTP/1.1 301 Moved Permanently"
+2026-06-29 01:58:54,475 [fetch] INFO: RSS [Google News World] → 15 articles
+2026-06-29 01:58:54,493 [httpx] INFO: HTTP Request: GET http://www.scmp.com/rss/91/feed/ "HTTP/1.1 301 Moved Permanently"
+2026-06-29 01:58:54,523 [httpx] INFO: HTTP Request: GET https://rss.dw.com/rdf/rss-en-world "HTTP/1.1 200 OK"
+2026-06-29 01:58:54,529 [fetch] INFO: RSS [DW World] → 11 articles
+2026-06-29 01:58:54,643 [httpx] INFO: HTTP Request: GET https://www.ftchinese.com/rss/feed "HTTP/1.1 200 OK"
+2026-06-29 01:58:54,650 [httpx] INFO: HTTP Request: GET https://36kr.com/feed "HTTP/1.1 200 OK"
+2026-06-29 01:58:54,651 [fetch] INFO: RSS [FT Chinese] → 7 articles
+2026-06-29 01:58:54,658 [fetch] INFO: RSS [Solidot] → 4 articles
+2026-06-29 01:58:54,791 [httpx] INFO: HTTP Request: GET https://www.zaobao.com.sg/news/world "HTTP/1.1 200 OK"
+2026-06-29 01:58:54,842 [fetch] INFO: RSS [联合早报] → 0 articles
+2026-06-29 01:58:54,872 [httpx] INFO: HTTP Request: GET https://www.scmp.com/rss/91/feed/ "HTTP/1.1 200 OK"
+2026-06-29 01:58:54,908 [httpx] INFO: HTTP Request: GET https://www.jiqizhixin.com/rss "HTTP/1.1 302 Found"
+2026-06-29 01:58:54,926 [fetch] INFO: RSS [SCMP] → 15 articles
+2026-06-29 01:58:55,163 [httpx] INFO: HTTP Request: GET https://www.jiqizhixin.com/data-service "HTTP/1.1 200 OK"
+2026-06-29 01:58:55,167 [fetch] INFO: RSS [36氪] → 9 articles
+2026-06-29 01:58:55,174 [fetch] INFO: RSS [机器之心] → 0 articles
+2026-06-29 01:58:55,249 [httpx] INFO: HTTP Request: GET https://www.qbitai.com/feed "HTTP/1.1 200 OK"
+2026-06-29 01:58:55,258 [fetch] INFO: RSS [量子位] → 5 articles
+2026-06-29 01:58:55,259 [fetch] INFO: RSS total: 192
+2026-06-29 01:58:55,259 [fetch] INFO: Fetching social trends...
+2026-06-29 01:58:55,392 [httpx] INFO: HTTP Request: GET https://www.reddit.com/r/MachineLearning/hot.json?limit=25 "HTTP/1.1 403 Blocked"
+2026-06-29 01:58:55,433 [fetch] WARNING: Social [Reddit r/MachineLearning]: Client error '403 Blocked' for url 'https://www.reddit.com/r/MachineLearning/hot.json?limit=25'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-06-29 01:58:55,512 [httpx] INFO: HTTP Request: GET https://www.reddit.com/r/technology/hot.json?limit=25 "HTTP/1.1 403 Blocked"
+2026-06-29 01:58:55,552 [fetch] WARNING: Social [Reddit r/technology]: Client error '403 Blocked' for url 'https://www.reddit.com/r/technology/hot.json?limit=25'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-06-29 01:58:55,648 [httpx] INFO: HTTP Request: GET https://www.reddit.com/r/worldnews/hot.json?limit=25 "HTTP/1.1 403 Blocked"
+2026-06-29 01:58:55,690 [fetch] WARNING: Social [Reddit r/worldnews]: Client error '403 Blocked' for url 'https://www.reddit.com/r/worldnews/hot.json?limit=25'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-06-29 01:58:55,790 [httpx] INFO: HTTP Request: GET https://www.reddit.com/r/investing/hot.json?limit=25 "HTTP/1.1 403 Blocked"
+2026-06-29 01:58:55,830 [fetch] WARNING: Social [Reddit r/investing]: Client error '403 Blocked' for url 'https://www.reddit.com/r/investing/hot.json?limit=25'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-06-29 01:58:55,926 [httpx] INFO: HTTP Request: GET https://www.reddit.com/r/China/hot.json?limit=25 "HTTP/1.1 403 Blocked"
+2026-06-29 01:58:55,967 [fetch] WARNING: Social [Reddit r/China]: Client error '403 Blocked' for url 'https://www.reddit.com/r/China/hot.json?limit=25'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-06-29 01:58:56,066 [httpx] INFO: HTTP Request: GET https://www.reddit.com/r/geopolitics/hot.json?limit=25 "HTTP/1.1 403 Blocked"
+2026-06-29 01:58:56,106 [fetch] WARNING: Social [Reddit r/geopolitics]: Client error '403 Blocked' for url 'https://www.reddit.com/r/geopolitics/hot.json?limit=25'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-06-29 01:58:56,106 [fetch] INFO: Social trends: 0
+2026-06-29 01:58:56,106 [fetch] INFO: Cross-matching RSS ↔ Social...
+2026-06-29 01:58:56,110 [fetch] INFO: Cross-match: 0 articles have social signals
+2026-06-29 01:58:56,226 [fetch] INFO: After dedup: 189
+2026-06-29 01:58:56,227 [fetch] INFO:   ai_tech: 56 articles
+2026-06-29 01:58:56,227 [fetch] INFO:   finance: 63 articles
+2026-06-29 01:58:56,227 [fetch] INFO:   intl_trends: 70 articles
+2026-06-29 01:58:56,227 [main] INFO: Fetched: 189 articles
+2026-06-29 01:58:56,227 [main] INFO: Step 2/3: Analyzing with DeepSeek...
+2026-06-29 01:58:56,234 [analyze] INFO: === Analysis cycle start ===
+2026-06-29 01:58:57,194 [httpx] INFO: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-29 01:59:14,589 [httpx] INFO: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-29 01:59:19,586 [analyze] INFO:   Screened ai_tech: 27 (from 56)
+2026-06-29 01:59:20,120 [httpx] INFO: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-29 01:59:33,140 [httpx] INFO: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-29 01:59:39,689 [analyze] INFO:   Screened finance: 45 (from 63)
+2026-06-29 01:59:40,185 [httpx] INFO: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-29 02:00:00,013 [httpx] INFO: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-29 02:00:05,389 [analyze] INFO:   Screened intl_trends: 67 (from 70)
+2026-06-29 02:00:05,389 [analyze] INFO:   ai_tech: 2ov+1cn ⭐⭐⭐, 5cn+5ov compact
+2026-06-29 02:00:05,389 [analyze] INFO:   finance: 2ov+0cn ⭐⭐⭐, 5cn+5ov compact
+2026-06-29 02:00:05,390 [analyze] INFO:   intl_trends: 3ov+3cn ⭐⭐⭐, 5cn+5ov compact
+2026-06-29 02:00:05,785 [httpx] INFO: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-29 02:00:07,571 [httpx] INFO: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-29 02:00:11,986 [analyze] INFO:   Deep: [ai-01] China claims the world&#8217;s fastest supercomput...
+2026-06-29 02:00:12,380 [httpx] INFO: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-29 02:00:17,496 [analyze] INFO:   Deep: [ai-02] TOP500 at ISC’26: We have a New Number 1 Supercomp...
+2026-06-29 02:00:17,884 [httpx] INFO: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-29 02:00:22,181 [analyze] INFO:   Deep: [ai-03] 法国本周的热浪超过对 2050 年的可怕想象...
+2026-06-29 02:00:22,583 [httpx] INFO: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-29 02:00:26,682 [analyze] INFO:   Deep: [fin-01] Iran talks on hold after fighting breaks out and T...
+2026-06-29 02:00:27,107 [httpx] INFO: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-29 02:00:31,245 [analyze] INFO:   Deep: [fin-02] US and Iran Agree to Halt Attacks Ahead of Talks...
+2026-06-29 02:00:31,649 [httpx] INFO: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-29 02:00:36,254 [analyze] INFO:   Deep: [intl-01] Iran war live: Tehran insists on control of Hormuz...
+2026-06-29 02:00:36,703 [httpx] INFO: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-29 02:00:40,888 [analyze] INFO:   Deep: [intl-02] US and Iran exchange strikes and accuse each other...
+2026-06-29 02:00:41,308 [httpx] INFO: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-29 02:00:45,593 [analyze] INFO:   Deep: [intl-03] Escalating US-Iran strikes threaten interim peace ...
+2026-06-29 02:00:46,014 [httpx] INFO: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-29 02:00:50,278 [analyze] INFO:   Deep: [intl-04] Iran warns ships not to bypass its chosen Hormuz r...
+2026-06-29 02:00:50,689 [httpx] INFO: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-29 02:00:54,194 [analyze] INFO:   Deep: [intl-05] Sovereign investors with US$29 trillion pivot to e...
+2026-06-29 02:00:54,577 [httpx] INFO: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-29 02:00:58,423 [analyze] INFO:   Deep: [intl-06] Iran warns ships not to bypass its chosen Hormuz r...
+2026-06-29 02:00:58,846 [httpx] INFO: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-29 02:01:01,836 [httpx] INFO: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-29 02:01:04,832 [httpx] INFO: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-29 02:01:07,652 [httpx] INFO: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-29 02:01:10,736 [httpx] INFO: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-29 02:01:13,089 [httpx] INFO: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-29 02:01:15,259 [httpx] INFO: HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-29 02:01:18,187 [analyze] INFO: === Analysis complete — est. cost $0.007 ===
+2026-06-29 02:01:18,187 [analyze] INFO:   Key articles: 11
+2026-06-29 02:01:18,187 [analyze] INFO:   Compact: 28
+2026-06-29 02:01:18,187 [analyze] INFO:   Deep analyses: 11
+2026-06-29 02:01:18,187 [main] INFO: Screened: 11 articles, 11 deep analyses
+2026-06-29 02:01:18,187 [main] INFO: Est. API cost: $0.007
+2026-06-29 02:01:18,187 [main] INFO: Step 3/3: Delivering...
+2026-06-29 02:01:20,175 [deliver] INFO: Email sent to alyssalin707@gmail.com
+2026-06-29 02:01:20,176 [deliver] INFO: Saved to /home/runner/work/002-daily-news/002-daily-news/daily/2026-06-29.md
+2026-06-29 02:01:20,176 [main] INFO: Email sent → alyssalin707@gmail.com
+2026-06-29 02:01:20,176 [main] INFO: Local: /home/runner/work/002-daily-news/002-daily-news/daily/2026-06-29.md
+2026-06-29 02:01:20,176 [main] INFO: ============================================================
+2026-06-29 02:01:20,176 [main] INFO: Done!
